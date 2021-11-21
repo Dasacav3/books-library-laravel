@@ -17,6 +17,7 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
+        "swiper": "^7.3.0",
         "tailwindcss": "^2.2.19"
     }
 }
