@@ -18,6 +18,10 @@ npm run dev
 ```
 php artisan migrate
 ```
+▶️ Create storage link:
+```
+php artisan storage:link
+```
 ▶️ Now execute you can run the app with the following command:
 ```
 php artisan serve
