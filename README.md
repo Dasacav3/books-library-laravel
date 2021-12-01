@@ -4,15 +4,26 @@ This is a web application for managing books. It was created using Laravel. It i
 
 ## How to use the application
 
-▶️ Create a .env file in the root directory of the application.
-
-▶️ Reemplase the database name, user, password and host with the values of your database.
-
 ▶️ Execute the following command: 
 ```
 composer install
 npm install
 npm run dev
+```
+▶️ Open your terminal and execute the following command (you must have docker installed):
+```
+docker-compose up -d
+```
+▶️ Create a .env file in the root directory of the application.
+
+▶️ Replace the following values in the .env file:
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=library
+DB_USERNAME=root
+DB_PASSWORD=root
 ```
 ▶️ Run the migrations:
 ```
